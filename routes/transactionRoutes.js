@@ -17,10 +17,7 @@ router
 router
     .route('/debituser/:userId')
     .post(authController.protect, transactionController.debitWallet);
-    
-// router
-//     .route('/transfer/:userId')
-//     .post(authController.protect, transactionController.transferWallet);    
+        
 
 router
     .route('/:id')
