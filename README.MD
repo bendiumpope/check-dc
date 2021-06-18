@@ -124,8 +124,11 @@ It contains the following routes
 • Request type: DELETE
 
 
-![Pay stack error](./Capture.PNG)
+
+
 
 • The error paystack throws from trying to use the charge api. seems they have little issues with it.
+![Pay stack error](./Capture.PNG)
+
 
 [Link to the API documentation with sample requests](https://documenter.getpostman.com/view/9775449/TzY6AEzc)
