@@ -95,7 +95,7 @@ exports.creditPaystack = catchAsync(async (userAccDetails) => {
         
     );
 
-    const data = res.data;
+    const data = res;
 
     return data 
 });

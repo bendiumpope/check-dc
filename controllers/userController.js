@@ -7,8 +7,9 @@ const APIFeatures = require('../utils/apiFeatures');
 
 exports.getAllUsers = catchAsync(async (req, res, next) => {
 
-    let filter = {};
-    if (req.params.transactionId) filter = { tansaction: req.params.transactionId };
+  let filter = {};
+
+  if (req.params.transactionId) filter = { tansaction: req.params.transactionId };
     ///QUERY EXECUTION
     const features = new APIFeatures(User.find(filter), req.query)
       .filter()

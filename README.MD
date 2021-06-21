@@ -1,6 +1,6 @@
 # Ewallet application
 
-This backend application that users signup, login, get all users, get a user by id, update a user detail, forget password, reset password, delete a user, credit a user wallet and debit a user wallet API  using Express and MongoDB.
+This backend application that allows user signup, login, get all users, get a user by id, update a user detail, forget password, reset password, delete a user, credit a user wallet and debit a user wallet API  using Express and MongoDB.
 This collection contains sample requests from this [API](http://localhost:8000/api/v1)
 
 It contains the following routes
@@ -127,7 +127,7 @@ It contains the following routes
 
 
 
-• The error paystack throws from trying to use the charge api. seems they have little issues with it.
+• The error paystack throws from trying to use the charge api to fake a credit to the ewallet using paystack. seems they have little issues with the API at the moment and i have messaged the Paystack support team about it.
 ![Pay stack error](./Capture.PNG)
 
 
