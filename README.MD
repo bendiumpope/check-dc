@@ -125,10 +125,4 @@ It contains the following routes
 
 
 
-
-
-• The error paystack throws from trying to use the charge api to fake a credit to the ewallet using paystack. seems they have little issues with the API at the moment and i have messaged the Paystack support team about it.
-![Pay stack error](./Capture.PNG)
-
-
 [Link to the API documentation with sample requests](https://documenter.getpostman.com/view/9775449/TzY6AEzc)
